@@ -1,7 +1,8 @@
 import styles from './Ingredients.module.css';
 
-const RecipeIngredients = () => {
-    let ingredients = ['rotini pasta', 'cherry tomatoes', 'feta cheese', 'salami', 'kalamata olives', 'parsley']
+export default function RecipeIngredients() {
+    const ingredients = ['rotini pasta', 'cherry tomatoes', 'feta cheese', 'salami', 'kalamata olives', 'parsley'];
+
     return (
         <div>
             <h3>Recipe Ingredients</h3>
@@ -14,7 +15,5 @@ const RecipeIngredients = () => {
                 <li>{ingredients[5]}</li>
             </ul>
         </div>
-    )
+    );
 }
-
-export default RecipeIngredients;

@@ -8,9 +8,9 @@ export default function HobbyLinks() {
     return(
         <div>
             <h3>{pageTitle}</h3>
-            <a href = {hobbyLinks[0]}>Goodreads: See what your friends are reading!</a>
-            <a href = {hobbyLinks[1]}>The StoryGraph: See your reading and library statistics!</a>
-            <a href = {hobbyLinks[2]}>Letterboxd: See what your friends are watching!</a>
+            <a href = {hobbyLinks[0]} target = "blank">Goodreads: See what your friends are reading!</a> <br></br>
+            <a href = {hobbyLinks[1]} target = "blank">The StoryGraph: Get statistics about your reading and library!</a> <br></br>
+            <a href = {hobbyLinks[0]} target = "blank">Letterboxd: Log and discuss movies with friends!</a> <br></br>
         </div>
     );
 }
