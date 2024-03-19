@@ -35,4 +35,4 @@ const listItem = oceans.map(ocean =>
    );
  }
 
-export default Profile;
+export default Profile; 
