@@ -1,13 +1,13 @@
 import { useState } from 'react';
 
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://pinchofyum.com/pasta-salad";
+   let authorPhoto = "https://pinchofyum.com/wp-content/assets/images/sidebar/sidebar-lindsay.jpg";
+   let authorName = "Lindsay Ostrom";
 
    return (
       <div>
-         <img src={authorPhoto} alt = "" style={{objectFit: "contain", borderRadius: "50%"}} />
+         <img src={authorPhoto} alt = "Photo of author Lindsay" style={{objectFit: "contain", borderRadius: "50%"}} />
          <div>
             <h3>{authorName}</h3>
             <a href={authorLink}></a> 
@@ -17,7 +17,7 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = ["pasta", "tomatoes", "mozzarella", "salami", "olives"];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -49,7 +49,7 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src="https://pinchofyum.com/cdn-cgi/image/width=680,height=99999,fit=scale-down/wp-content/uploads/Pasta-Salad-with-Italian-Dressing.jpg" alt="Easy summer pasta salad with olives, tomatoes, salami and mozzarella." className="imageUpdates"/>
    );
 }
 
